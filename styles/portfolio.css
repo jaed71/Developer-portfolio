@@ -101,7 +101,10 @@ nav a {
 }
 
 /* Main styles */
-
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 /* about section styles */
 
 .about{
@@ -123,4 +126,11 @@ text-align: center;
 font-size: 18px;
 font-weight: 400;
 line-height: 30px; 
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info{
+   text-align: center;
 }
