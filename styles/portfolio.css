@@ -121,7 +121,7 @@ max-width: 1140px;
     font-weight: 700;
 }
 .section-description{
-    color:  #757575;
+color:  #757575;
 text-align: center;
 font-size: 18px;
 font-weight: 400;
@@ -133,4 +133,7 @@ line-height: 30px;
 }
 .about-info{
    text-align: center;
+}
+#what-i-do-description{
+    padding: 30px 150px;
 }
