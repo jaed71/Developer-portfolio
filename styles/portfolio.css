@@ -169,16 +169,27 @@ main section {
 /* Resume Section Styles */
 .resume-column-title {
     color: #474747;
-   
+
     font-size: 30px;
-  
+
     font-weight: 700;
- 
+
 }
-.resume-container{
+
+.resume-container {
     display: flex;
-    justify-content:space-between;
+    gap: 50px;
 }
-.resume-column{
-    
+
+.resume-item-description ,.resume-item-institute{
+    color: #757575;
+   
+    /* 175% */
+}
+.resume-container hr{
+    margin: 30px 0px;
+}
+.download-cv{
+    margin: 50px;
+    text-align: center;
 }
